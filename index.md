@@ -3,7 +3,7 @@
 [editor on GitHub](https://github.com/sannabrekke/sannabrekke.github.io/edit/master/index.md)
 [editor on GitHub](https://github.com/sannabrekke/sannabrekke.github.io/edit/master/index.md)
 
-[Datautstyr](https://github.com/sannabrekke/sannabrekke.github.io/Datautstyr)
+[Datautstyr](https://github.com/sannabrekke/sannabrekke.github.io/Datautstyr/Datautstyr.html)
 
 You can use the [editor on GitHub](https://github.com/sannabrekke/sannabrekke.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
