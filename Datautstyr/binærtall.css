@@ -1,0 +1,133 @@
+#meny {
+    position: absolute;
+    left: 0;
+    bottom: 0%;
+    width: 20%;
+    height: 85%;
+    background: #C4BCAF;
+    }
+     
+    #meny ul {
+    -webkit-padding-start: 0;
+    }
+     
+    #meny li {
+    display: block;
+    }
+     
+    #meny li a {
+    text-decoration: none;
+    color:whitesmoke;
+    display: block;
+    margin: 8px;
+    text-align: center;
+    padding-top:7px;
+    height: 30px;
+    background: #C79E78;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px #6D4D2F; 
+    font-size: 0.5cm;
+    }
+     
+    #meny li a:hover {
+    box-shadow: 3px 3px 3px; color: #000000; 
+    }
+     
+    #meny li a:active {
+    transform: translate(2px,2px); 
+    box-shadow: none; 
+    }
+     
+    #meny li a.showing {
+    background: #7C624C;
+    color: #000000;
+    }
+
+    
+     
+    .tittel {
+    color: #754C36;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 15%;
+    
+    background-size: small;
+    background-repeat: no-repeat;
+    background-position: right;
+    text-shadow: 2px 2px rgba(148, 104, 75, 0.7);
+    text-align: center;
+    font-size: 3cm;
+    font-family: Georgia, serif;
+    overflow: hidden;
+
+    }
+
+    #innhold {
+    position: absolute;
+    left: 20%;
+    bottom: 0%;
+    width: 80%;
+    height: 85%;
+    background: whitesmoke;
+    
+    }
+
+    #main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    }
+
+    #main div {
+        background: rgb(207, 196, 196);
+        width: 20em;
+        height: 25em;
+        margin: 1px;
+    }
+
+    #main2 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+        
+    }
+
+    #main2 div {
+        background: rgb(192, 171, 155);
+        width: 29em;
+        height: 25em;
+        margin: 1px;
+    }
+     
+    #innhold p {
+    padding-left:45px;
+    }
+
+ 
+
+
+    table {
+        border: solid 2px rgb(0, 0, 0);
+        border-collapse: collapse;
+        }
+         
+        th,td {
+        padding-left:5px;
+        }
+        th {
+        background: rgb(199, 182, 182);
+        }
+         
+        tr:nth-child(odd) {
+        background: rgba(255, 255, 255, 0.2);
+        }
+         
+        td:nth-child(odd) {
+        background: rgba(255, 255, 255, 0.2);
+        }
