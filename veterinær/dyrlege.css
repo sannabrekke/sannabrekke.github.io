@@ -1,0 +1,29 @@
+: root {
+    --fyll: 10px;
+}
+
+
+
+header {
+    color: rgb(20, 131, 112);
+    font-size: 1.2em;
+    padding: var(--fyll);
+    padding-bottom: 20px;
+
+}
+
+article {
+    color: rgb(96, 138, 153);
+    font-size: 1.1em;
+    padding: var(--fyll);
+}
+
+#liste {
+    width: 90vw;
+    min-height: 50vh;
+    border: 2px solid rebeccapurple;
+}
+
+div.kunde {
+    background-color: whitesmoke;
+}
