@@ -1,0 +1,11 @@
+main {
+    display: grid;
+    grid-template-columns: 340px 340px 340px 340px;
+    grid-column-gap: 0px;
+    grid-gap: 5px;
+    grid-auto-rows: minmax(100px,auto);
+
+}
+
+
+
