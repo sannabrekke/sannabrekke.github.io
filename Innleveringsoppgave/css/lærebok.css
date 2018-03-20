@@ -1,0 +1,56 @@
+
+#lån {
+    width: 300px;
+    height: 200px;
+    background-color: whitesmoke;
+    text-align: center;
+    left: 20%;
+    top: 42%;
+    position: absolute;
+}
+
+#databasebok {
+    position: absolute;
+    width: 300px;
+    height: 420px;
+    background: url(../bilder/it1.png);
+    left: 20%;
+    top: 5%;
+    background-repeat: no-repeat;
+}
+
+#info {
+    width: 500px;
+    height: 400px;
+    background-color: whitesmoke;
+    text-align: center;
+    left: 50%;
+    top: 5%;
+    position: absolute;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#info:hover {
+    background-color: rgb(233, 233, 233);
+    border: rgb(160, 160, 160);
+    border-style: dotted;
+}
+
+#jordklode {
+    background-color: rgb(47, 139, 130);
+    position: absolute;
+    left: 8vw;
+    top: 10%;
+
+}
+
+#login {
+    height: 40px;
+    width: 100px;
+    left: 90%;
+    top: 5%;
+    background-color: rgb(47, 139, 130);
+    position: absolute;
+    font-size: 6mm;
+    color: white;
+}

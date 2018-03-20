@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/bibliotek.css">
+    <title>Rogaland Bibliotek</title>
+    <link rel="shortcut icon"
+ href="../bilder/bok2.png">
+</head>
+
+<body>
+
+
+    <div id="hjem">
+        <a class="showing" href="bibliotek.html">Hjem</a>
+    </div>
+
+    <div id="om">
+        <a href="Om.html">Om oss</a>
+    </div>
+
+    <div id="regler">
+        <a href="regler.html">Lover og regler</a>
+    </div>
+
+    <div id="tittel">
+        <h1>Rogaland Bibliotek</h1>
+        <div id="jordklode"> 
+            <img src="../bilder/jord.gif" alt="jorden" width="150" height="150" title="jorden" >
+        </div>
+
+        <div id="login"> 
+            <a href="login.html">Logg inn</a>
+        </div>
+
+    </div>
+
+    <div id="innhold">
+
+        <div id="sok">
+            <input type="text" placeholder="Search..">
+            <div id="bokgif">
+                    <img src="../bilder/bok.gif" alt="jorden" width="110" height="110" title="jorden" >
+            </div>
+
+        </div>
+
+        <div id="logginn">
+            <h1>Logg inn</h1>
+            <form>
+                <div>
+                    <div>
+                        <h3>Navn</h3>
+                    </div>
+                    <div>
+                        <input id="navn" type="text">
+                    </div>
+                </div>
+
+                <div>
+                    <div>
+                         <h3>Passord </h3>
+                    </div>
+                    <div>
+                         <input id="mobil" type="text">
+                     </div>
+                </div>
+
+                <div>
+                    <div>
+                        <button type="button" id="bestill">
+                            <h2>Logg inn </h2> </button>
+                    </div>
+                    <div></div>
+                </div>
+                <div>
+                    <script>
+                        let btn = document.getElementById("bestill");
+                        btn.addEventListener("click", lagreData);
+
+                        function lagreData() {
+                            let navn = document.getElementById("navn").value;
+                            alert("Brukernavn eller passord er dessverre feil, prøv igjen.");
+
+                        }
+                    </script>
+                </div>
+
+        </div>
+
+
+    </div>
+
+    <div id="åpningstider">
+    </div>
+
+    <div id="bunntekst">
+        <div>
+            <h3>Kontakt oss</h3>
+            <footer>
+                <p>Posted by: Sanna Brekke</p>
+                <p>E-mail:
+                    <a href="mailto:sanna5358@hotmail.com">
+                        sanna5358@hotmail.com</a>.</p>
+                <p>Telefon:
+                    <a href="11223344">
+                        11223344</a>.</p>
+                <p>Adresse:
+                    <a href="https://www.google.pl/maps/place/Sk%C3%A5regata+92,+5528+Haugesund/@59.410945,5.2713757,17z/data=!3m1!4b1!4m5!3m4!1s0x463b9fcd27304b1b:0xdaec2be3c184cbbe!8m2!3d59.410945!4d5.2735644">
+                        Skåregata 92 5528 Haugesund</a>.</p>
+            </footer>
+        </div>
+        <div>
+            <h3>Åpningstider</h3>
+            <table>
+                <tr>
+                    <th>Mandag - Fredag</th>
+                    <th>09:00 - 17:00</th>
+                </tr>
+                <tr>
+                    <th>Lørdag</th>
+                    <th>09:00 - 14:00</th>
+                </tr>
+                <tr>
+                    <th>Søndag</th>
+                    <th>10:00 - 14:00</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+</body>
+
+</html>
