@@ -1,0 +1,248 @@
+
+
+#hjem {
+    position: absolute;
+    left: 0;
+    top: 25%;
+    width: 33%;
+    height: 6%;
+    background: rgb(47, 139, 130);
+
+    color:whitesmoke;
+    padding-top: 4px;
+    text-align: center;
+    font-size: 4vh;
+    font-family: fantasy;
+}
+
+#hjem a.showing {
+    color: whitesmoke;
+    }
+
+#om {
+    position: absolute;
+    left: 33%;
+    top: 25%;
+    width: 33%;
+    height: 6%;
+    background:rgb(47, 139, 130);
+
+    color:whitesmoke;
+    padding-top: 4px;
+    text-align: center;
+    font-size: 4vh;
+    font-family: fantasy;
+}
+
+#om a {
+    color: whitesmoke;
+}
+
+#regler {
+    position: absolute;
+    left: 66%;
+    font-size: 1em;
+    top: 25%;
+    width: 34%;
+    height: 6%;
+    background:rgb(47, 139, 130);
+
+    color:whitesmoke;
+    padding-top: 4px;
+    text-align: center;
+    font-size: 4vh;
+    font-family: fantasy;
+}
+
+#regler a {
+    color: whitesmoke;
+
+}
+
+#tittel {
+    background-color: rgb(47, 139, 130);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 25%;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 1cm;
+    font-family: fantasy;
+}
+
+#innhold {
+    position: absolute;
+    left: 0%;
+    bottom: -100%;
+    width: 100%;
+    top: 31%;
+    background:whitesmoke;
+}
+
+
+
+#bunntekst {
+    background-color: rgb(47, 139, 130);
+    position: absolute;
+    left: 0;
+    bottom: -100%;
+    width: 100%;
+    height: 35%;
+}
+
+#bunntekst {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+#bunntekst div {
+    height: 75%;
+    width: 40%;
+    bottom: 10%;
+    left: 10%;
+    border-color: black;
+    border: 3px;
+    border-style: double;
+    text-align: center;
+    margin-top: 15px;
+    background-color: rgb(47, 139, 130);
+
+}
+
+#innhold {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+#sok {
+    position: absolute;
+    left: 0%;
+    width: 11%;
+    height: 76%;
+    padding: 10px;
+    margin: 8px;
+    background-color: rgb(152, 168, 166);
+}
+
+#bok {
+    position: absolute;
+    text-align: center;
+    left: 13%;
+    width: 84%;
+    height: 76%;
+    margin: 10px;
+    padding: 10px;
+    padding-top: 30px;
+    background-color: whitesmoke;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5em;
+}
+
+div.gallery {
+    margin: 60px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 200px;
+    
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 20px;
+    text-align: center;
+
+}
+
+
+#info {
+    height: 800px;
+    width: 900px;
+    left: 17%;
+    margin-top: 20px;
+    position: absolute;
+    background-color: whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#bilde {
+    height: 400px;
+    width: 700px;
+    top: 40%;
+    left: 15%;
+    position: absolute;
+    filter: opacity(50%);
+    transition: 2s;
+}
+
+#bilde:hover {
+    filter: opacity(100%);
+}
+
+#jordklode {
+    background-color: rgb(47, 139, 130);
+    position: absolute;
+    left: 8vw;
+    top: 10%;
+
+}
+
+#login {
+    height: 40px;
+    width: 100px;
+    left: 90%;
+    top: 5%;
+    background-color: rgb(47, 139, 130);
+    position: absolute;
+    font-size: 6mm;
+    color: white;
+}
+
+#bokgif {
+    background-color: rgb(152, 168, 166);
+    position: absolute;
+    left: 2vw;
+    top: 10%;
+    animation: blink 1s alternate linear infinite;
+
+}
+
+@keyframes blink {
+    100% { transform: scale(0.7); }
+}
+
+
+#menneske {
+    height: 110px;
+    width: 85px;
+    position: absolute;
+    top: 68%;
+    left: calc(50% - 56px);
+    background: url(puppet.png);
+    background-position-x: 0;
+    background-position-y: calc(-112px * 2);
+    animation: walk 1s steps(8) infinite;
+
+}
+
+@keyframes walk {
+    100% { background-position-x: calc( -112px * 8 ); }
+}
+
+
